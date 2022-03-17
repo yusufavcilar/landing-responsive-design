@@ -1,0 +1,31 @@
+@media (min-width: 1200px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar img {
+    width: 150px;
+    height: 70px;
+  }
+  .navbar i {
+    font-size: 1rem;
+  }
+  .navbar__links {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .navbar .home:hover {
+    color: chartreuse;
+    opacity: 50%;
+  }
+}
+/*# sourceMappingURL=large.css.map */

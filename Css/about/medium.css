@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=medium.css.map */

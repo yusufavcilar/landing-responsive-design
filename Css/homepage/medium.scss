@@ -1,0 +1,22 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .options {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: space-between;
+        column-gap: 20px;
+        row-gap: 50px;
+    
+        &__frame {
+            padding: 50px 0;
+            margin-top: 0;
+            width: 340px;
+        }
+    }
+}

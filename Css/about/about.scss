@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(226, 248, 240);
+}
+
+.container {
+    padding: 0 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(4, 2, 90) , rgb(5, 124, 221));
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+
+    img {
+        width: 150px;
+        height: 70px;
+    }
+
+    i {
+        font-size: 1rem;
+    }
+
+    &__links {
+        display: none;
+    }
+}
+
+.content {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+     h1 {
+         font-size: 2rem;
+         color: blue;
+         opacity: 60%;
+     }
+
+    p {
+        margin-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1rem;
+        font-style: 700;
+        color: green;
+        opacity: 50%;
+        
+    }
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 10px;
+    background: #3a08ec;
+    color: #FFF;
+
+    &__adress {
+        text-align: center;
+
+        &-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: cadetblue;
+        }
+
+        &-subtitle {
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        &-line {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        &-tel {
+            margin-top: 15px;
+        }
+
+        &-email {
+            margin-top: 15px;
+        }
+    }
+}

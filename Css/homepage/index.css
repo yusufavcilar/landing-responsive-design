@@ -1,0 +1,123 @@
+body {
+  background-color: #e2f8f0;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#04025a), to(#057cdd));
+  background-image: linear-gradient(to right, #04025a, #057cdd);
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFF;
+}
+
+.navbar img {
+  width: 150px;
+  height: 70px;
+}
+
+.navbar i {
+  font-size: 1rem;
+}
+
+.navbar__links {
+  display: none;
+}
+
+.content {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.content img {
+  height: 375px;
+}
+
+.content p {
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1rem;
+  font-style: 700;
+}
+
+.options__frame {
+  background-image: -webkit-gradient(linear, left top, right top, from(#99fdaf), to(#3ef5d6));
+  background-image: linear-gradient(to right, #99fdaf, #3ef5d6);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 20px;
+}
+
+.google__map {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px 10px;
+  background: #3a08ec;
+  color: #FFF;
+}
+
+.footer__adress {
+  text-align: center;
+}
+
+.footer__adress-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: cadetblue;
+}
+
+.footer__adress-subtitle {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.footer__adress-line {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer__adress-tel {
+  margin-top: 15px;
+}
+
+.footer__adress-email {
+  margin-top: 15px;
+}
+
+.footer__products {
+  display: none;
+}
+/*# sourceMappingURL=index.css.map */
